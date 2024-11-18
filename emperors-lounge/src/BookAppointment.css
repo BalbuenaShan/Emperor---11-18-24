@@ -1,0 +1,76 @@
+/* BookAppointment.css */
+.book-appointment-container {
+    background-image: url('/public/babg.png'); /* Update with your image path */
+    background-size: cover; /* Cover the entire container */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    min-height: 100vh; /* Ensure it covers at least the full viewport height */
+    padding: 20px; /* Optional padding */
+    color: white; /* Change text color for better contrast */
+}
+
+.services-container {
+    margin-bottom: 20px;
+}
+
+.service {
+    margin: 10px 0;
+}
+
+.barber-selection {
+    margin: 20px 0;
+}
+
+.barber-list {
+    margin-top: 10px;
+}
+
+.appointment-form {
+    margin-top: 20px;
+    text-align: left;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.appointment-form label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.appointment-form input,
+.appointment-form select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+}
+
+.appointment-form button {
+    background-color: #000;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 20px;
+    transition: background-color 0.3s;
+}
+
+.appointment-form button:hover {
+    background-color: #d9a23d;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.nav-link {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.nav-link:hover {
+    background-color: #55555500;
+}
